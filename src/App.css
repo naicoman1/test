@@ -27,6 +27,25 @@
 .App-link {
   color: #61dafb;
 }
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.sphere {
+  fill: #4242e4;
+}
+
+.country {
+  fill: lightgreen;
+  stroke: black;
+  stroke-width: 0.05px;
+  cursor: pointer;
+}
+
+.country:hover {
+  fill: red;
+}
 
 @keyframes App-logo-spin {
   from {
